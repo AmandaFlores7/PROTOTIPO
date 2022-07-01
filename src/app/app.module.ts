@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { VerMenuComponent } from './Pages/ver-menu/ver-menu.component';
 import { VerMenuAdministradorComponent } from './Pages/ver-menu-administrador/ver-menu-administrador.component';
 import { InicioComponent } from './Pages/inicio/inicio.component';
+import { EditarItemComponent } from './Pages/ver-menu-administrador/editar-item/editar-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VerMenuComponent,
     VerMenuAdministradorComponent,
-    InicioComponent
+    InicioComponent,
+    EditarItemComponent
   ],
   imports: [
     BrowserModule,
