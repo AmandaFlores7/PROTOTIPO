@@ -7,6 +7,7 @@ import { VerMenuComponent } from './Pages/ver-menu/ver-menu.component';
 import { VerMenuAdministradorComponent } from './Pages/ver-menu-administrador/ver-menu-administrador.component';
 import { InicioComponent } from './Pages/inicio/inicio.component';
 import { EditarItemComponent } from './Pages/ver-menu-administrador/editar-item/editar-item.component';
+import { IrPedidoComponent } from './Pages/ver-menu/ir-pedido/ir-pedido.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EditarItemComponent } from './Pages/ver-menu-administrador/editar-item/
     VerMenuComponent,
     VerMenuAdministradorComponent,
     InicioComponent,
-    EditarItemComponent
+    EditarItemComponent,
+    IrPedidoComponent
   ],
   imports: [
     BrowserModule,

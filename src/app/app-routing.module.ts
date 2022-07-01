@@ -5,6 +5,7 @@ import { InicioComponent } from './Pages/inicio/inicio.component';
 import { VerMenuAdministradorComponent } from './Pages/ver-menu-administrador/ver-menu-administrador.component';
 import { VerMenuComponent } from './Pages/ver-menu/ver-menu.component';
 import { EditarItemComponent } from './Pages/ver-menu-administrador/editar-item/editar-item.component';
+import {IrPedidoComponent} from './Pages/ver-menu/ir-pedido/ir-pedido.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'Inicio', pathMatch: 'full' },
@@ -12,7 +13,10 @@ const routes: Routes = [
   { path: 'VerMenu', component: VerMenuComponent },
   { path: 'VerMenuAdministrador', component: VerMenuAdministradorComponent },
   { path: 'VerMenuAdministrador/:idItem', component: EditarItemComponent},
+  { path: 'IrVerPedido', component: IrPedidoComponent},
 ];
+
+  
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
