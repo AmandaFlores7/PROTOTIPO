@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'Inicio', component: InicioComponent },
   { path: 'VerMenu', component: VerMenuComponent },
   { path: 'VerMenuAdministrador', component: VerMenuAdministradorComponent },
-  { path: 'EditarItem', component: EditarItemComponent},
+  { path: 'VerMenuAdministrador/:idItem', component: EditarItemComponent},
 ];
 
 @NgModule({
