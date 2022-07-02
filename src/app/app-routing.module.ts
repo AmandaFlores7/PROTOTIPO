@@ -1,8 +1,10 @@
+import { isNgTemplate } from '@angular/compiler';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './Pages/inicio/inicio.component';
 import { VerMenuAdministradorComponent } from './Pages/ver-menu-administrador/ver-menu-administrador.component';
 import { VerMenuComponent } from './Pages/ver-menu/ver-menu.component';
+import { EditarItemComponent } from './Pages/ver-menu-administrador/editar-item/editar-item.component';
 import {IrPedidoComponent} from './Pages/ver-menu/ir-pedido/ir-pedido.component';
 
 const routes: Routes = [
@@ -10,8 +12,10 @@ const routes: Routes = [
   { path: 'Inicio', component: InicioComponent },
   { path: 'VerMenu', component: VerMenuComponent },
   { path: 'VerMenuAdministrador', component: VerMenuAdministradorComponent },
+  { path: 'VerMenuAdministrador/:idItem', component: EditarItemComponent},
   { path: 'IrVerPedido', component: IrPedidoComponent},
 ];
+
   
 
 @NgModule({
